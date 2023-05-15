@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #1abc9c;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 40px;
+			margin: 0;
+		}
+		main {
+			padding: 50px;
+			text-align: center;
+		}
+		p {
+			font-size: 20px;
+			line-height: 1.5;
+			margin-bottom: 30px;
+		}
+		button {
+			background-color: #1abc9c;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 20px;
+			padding: 10px 20px;
+			transition: background-color 0.3s ease;
+		}
+		button:hover {
+			background-color: #148f77;
+		}
+        .hamburger {
+  display: inline-block;
+  cursor: pointer;
+  padding: 40px;
+}
+
+.line {
+  width: 60px;
+  height: 6px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+/* Rotate the first and third lines to create the "hamburger" shape */
+.line:first-child {
+  transform: rotate(-90deg) translate(-5px, 5px);
+}
+
+.line:last-child {
+  transform: rotate(80deg) translate(-5px, -5px);
+}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to our Landing Page</h1>
+	</header>
+	<main>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper ante a odio vestibulum viverra. Aliquam vestibulum turpis quis aliquet rutrum. Integer sit amet hendrerit enim.</p>
+		<button>Learn More</button>
+	</main>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      
+</body>
+</html>
